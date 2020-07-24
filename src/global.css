@@ -9,8 +9,12 @@ html {
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
+}
+
+.fullWidth {
+  width: 100vw;
 }
 
 input,
@@ -19,5 +23,5 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
