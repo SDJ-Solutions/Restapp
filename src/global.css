@@ -9,8 +9,14 @@ html {
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(23, 26, 31, 0.9);
   margin: 0;
+  color: #fff;
+}
+
+.fullWidth {
+  width: 100vw;
 }
 
 input,
@@ -19,5 +25,5 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
