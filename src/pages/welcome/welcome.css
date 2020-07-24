@@ -1,1 +1,26 @@
+.welcome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  background-color: rgba(0, 0, 0, 0.85);
+}
 
+.backgroundImage {
+  background-image: url(../../assets/restapp-bg-startpage.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* display: grid;
+  grid-template-rows: 1fr 1fr 6fr;
+  padding: 60px 0 30px 0;
+}
+
+.welcome:first-child {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+.welcome:nth-child(2) {
+} */
