@@ -1,5 +1,21 @@
-.avatar {
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
+.navHeader {
+  display: flex;
+  padding: 25px 37px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #171a1f;
+  justify-content: flex-start;
+}
+
+.navHeader > button {
+  border-style: none;
+  background: transparent;
+}
+
+.navHeader > span {
+  text-align: center;
+  flex-grow: 2;
+  letter-spacing: 1.6px;
+  line-height: 21px;
 }
