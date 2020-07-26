@@ -1,4 +1,22 @@
 .imgWrapper > img {
-  width: 100%;
-  border: none;
+  width: 100vw;
+  margin-bottom: -5px;
 }
+
+/* .previewProduct {
+  box-shadow: inset 25px 25px 100px black;
+} */
+
+/* .vignette-inset {
+  position: relative;
+  height: 400px;
+  display: block;
+  background-image: url('../images/posts/css-effects/3/atx-rooftop.jpg');
+  background-size: cover;
+}
+.vignette-inset:after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  box-shadow: inset 0px 0px 150px black;
+} */
