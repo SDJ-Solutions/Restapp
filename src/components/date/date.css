@@ -9,12 +9,22 @@
   letter-spacing: 1px;
   line-height: 13px;
 }
-.date > span {
-  padding: 0 20px;
+
+.dateWrapper input {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 13px;
+}
+
+.date > :last-child {
+  width: 35px;
 }
 
 .dateWrapper img {
   position: absolute;
   bottom: 0;
-  right: 37px;
+  right: 36px;
 }
