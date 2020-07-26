@@ -10,12 +10,14 @@
   letter-spacing: 1px;
   position: relative;
   height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mapWrapper > :first-child {
   position: absolute;
   z-index: 2;
-  left: 68px;
 }
 
 .mapWrapper > :last-child {
