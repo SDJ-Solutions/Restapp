@@ -1,0 +1,45 @@
+.mainScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.mapWrapper {
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 1px;
+  position: relative;
+  height: 95vh;
+}
+
+.mapWrapper > :first-child {
+  position: absolute;
+  z-index: 2;
+  left: 68px;
+}
+
+.mapWrapper > :last-child {
+  position: absolute;
+  z-index: 2;
+  top: 85%;
+  bottom: 0;
+  right: 0;
+}
+
+.mapWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mapListWrapper {
+  padding-right: 15px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mapListWrapper a {
+  padding-left: 15px;
+}
