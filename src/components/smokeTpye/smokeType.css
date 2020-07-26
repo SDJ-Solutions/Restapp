@@ -1,0 +1,32 @@
+.typeWrapper {
+  padding: 12px 0;
+}
+.typeWrapper p {
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 13px;
+  text-align: center;
+  list-style: none;
+}
+
+.typeSelector {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.typeSelector > li > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.typeSelector img {
+  height: 21px;
+}
+
+.typeSelector > li > a:focus {
+  border-bottom: 2px solid #ccc;
+}
