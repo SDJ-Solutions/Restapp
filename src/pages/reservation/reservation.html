@@ -1,0 +1,54 @@
+<main class="reservationPage">
+  <nav class="navHeader fullWidth">
+    <button><img src="../../assets/restapp-menuicon.svg" alt="Menu" /></button>
+    <span>
+      RESTAPP
+    </span>
+  </nav>
+  <div class="resImgWrapper">
+    <p>Reservation</p>
+    <img src="../../assets/reservation_img.png" alt="Reservation Background" />
+  </div>
+  <section class="reservationBG">
+    <div class="typeWrapper fullWidth">
+      <p>Select type of hall</p>
+      <ul class="typeSelector">
+        <li>
+          <a href="#">
+            <img src="../../assets/icon_smoking.svg" alt="For Smokers" />
+            <p>FOR SMOKERS</p></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img src="../../assets/icon_smoke_free.svg" alt="For Smokers" />
+            <p>FOR NON-SMOKERS</p></a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="sliderWrapper fullWidth">
+      <p>Number of people</p>
+      <div class="slidecontainer">
+        <input
+          type="range"
+          min="1"
+          max="50"
+          value="7"
+          class="slider"
+          id="myRange"
+        />
+      </div>
+      <span>7</span>
+    </div>
+    <div class="dateWrapper fullWidth">
+      <span>Date of booking</span>
+      <div class="date">
+        <input type="number" min="01" max="31" value="01" />
+        <input type="number" min="01" max="12" value="01" />
+        <input type="text" value="01:01" />
+      </div>
+      <img src="../../assets/pen_selector.svg" alt="Selector" />
+    </div>
+  </section>
+</main>
